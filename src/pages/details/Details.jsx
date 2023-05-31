@@ -50,14 +50,14 @@ const Details = () => {
   </div>
 ))}
 
-<Button variant="warning mx-2" className="btn btn-primary mt-4" 
+<Button variant="warning mx-2" className="btn btn-primary mt-2" 
  onClick={() => {
     const googleMapsUrl = ülke.maps.googleMaps; // Google Haritalar'ın URL'si burada alınır
     window.open(googleMapsUrl, "_blank");
   }}
    >View on Google Maps</Button>
           </Card.Text>
-          <Button variant="success mx-2" className="btn btn-primary" onClick={() => navigate(-1)}>GO BACK</Button>
+          <Button variant="success" className="btn btn-primary" onClick={() => navigate(-1)}>GO BACK</Button>
           {/* <Button variant="" className="btn btn-primary" onClick={() => navigate("/")}>GO HOME</Button> */}
         </Card.Body>
       </Card>

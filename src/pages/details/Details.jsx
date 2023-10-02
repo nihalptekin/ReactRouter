@@ -27,7 +27,7 @@ const Details = () => {
   return (
     <div  style={backgroundStyle} >
     <Container className="text-center d-flex justify-content-center mt-5">
-      <Card className="p-4" key={ülke.id} style={{ width: '30rem', height:"35rem", opacity:0.9 }}>
+      <Card className="p-4" key={ülke.id} style={{ width: '35rem', height:"40rem", opacity:0.9 }}>
         <Card.Img
           variant="top"
           src={ülke.flags ? ülke.flags.svg : ""}
